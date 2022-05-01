@@ -1,0 +1,37 @@
+.residentCard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #24325FFF;
+    padding: 4rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    width: 33%;
+    transition: all 0.3s ease;
+    box-shadow: 10px 15px 23px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 15px 23px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 15px 23px -5px rgba(0,0,0,0.75);
+}
+.residentCard:hover{ 
+    transform: translateY(-15px);
+}
+h1, h2, h3, h4 {
+    font-family: 'Rye', cursive;
+    color: #24A19C;
+}
+.residentImg {
+    border-radius: 50%;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+b {
+    color: #8BCF21;
+}
+.InfoCard{
+    list-style: none;
+    text-align: left;
+}
